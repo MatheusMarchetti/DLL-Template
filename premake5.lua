@@ -75,7 +75,7 @@ project (appname)
 
     links
     {
-        "Core"
+        corename
     }
 
     files
