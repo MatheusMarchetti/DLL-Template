@@ -8,3 +8,10 @@ os.mkdir(corename)
 os.mkdir(appname)
 os.mkdir(corename.."/src")
 os.mkdir(appname.."/src")
+
+local f = io.open(corename.."/src/corepch.h","w")
+f:close()
+
+local f = io.open(corename.."/src/corepch.cpp","w")
+f:write("#include <corepch.h>")
+f:close()
