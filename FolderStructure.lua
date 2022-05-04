@@ -10,6 +10,7 @@ os.mkdir(corename.."/src")
 os.mkdir(appname.."/src")
 
 local f = io.open(corename.."/src/corepch.h","w")
+f:write("#pragma once")
 f:close()
 
 local f = io.open(corename.."/src/corepch.cpp","w")
