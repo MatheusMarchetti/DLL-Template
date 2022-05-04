@@ -36,15 +36,13 @@ project (corename)
 
     files
     {
-        corename.."/src/corepch.h",
-        corename.."/src/corepch.cpp",
-        "{prj.name}/src/**.cpp",
-        "{prj.name}/src/**.h"
+        "%{prj.name}/src/**.cpp",
+        "%{prj.name}/src/**.h"
     }
 
     includedirs
     {
-        "{prj.name}/src/"
+        "%{prj.name}/src/"
     }
 
     postbuildcommands
@@ -82,13 +80,13 @@ project (appname)
 
     files
     {
-        "{prj.name}/src/**.cpp",
-        "{prj.name}/src/**.h"
+        "%{prj.name}/src/**.cpp",
+        "%{prj.name}/src/**.h"
     }
 
     includedirs
     {
-        "{prj.name}/src/",
+        "%{prj.name}/src/",
         corename.."/src"
     }
 
