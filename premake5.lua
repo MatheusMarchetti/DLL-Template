@@ -36,6 +36,8 @@ project (corename)
 
     files
     {
+        corename.."/src/corepch.h",
+        corename.."/src/corepch.cpp",
         "{prj.name}/src/**.cpp",
         "{prj.name}/src/**.h"
     }
