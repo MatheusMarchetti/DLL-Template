@@ -47,7 +47,7 @@ project (corename)
 
     postbuildcommands
     {
-        ("{COPY} %{cfg.buildtarget.relpath} \"../bin/" ..outputdir.. "/App/\"")
+        ("{COPY} %{cfg.buildtarget.relpath} \"../bin/" ..outputdir.. "/"..appname.."/\"")
     }
 
     filter "configurations:Debug"
