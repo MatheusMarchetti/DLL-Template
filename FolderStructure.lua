@@ -1,8 +1,8 @@
 -- Default folder structure for creating a project
 
-solutionname = "nino-engine"
-corename = "nino-core"
-appname = "nino-sandbox"
+solutionname = "solution"
+corename = "core"
+appname = "app"
 
 os.mkdir(corename)
 os.mkdir(appname)
