@@ -3,7 +3,7 @@ include "FolderStructure.lua"
 workspace (solutionname)
     language "C++"
     cppdialect "C++17"
-    architecture "x64"
+    architecture "x86_64"
     systemversion "latest"
     characterset "Unicode"
     startproject (appname)

@@ -17,7 +17,7 @@ if f == nil then
     f:close()
 end
 
-local f = io.open(corename.."/src/corepch.h","r")
+local f = io.open(corename.."/src/corepch.cpp","r")
 
 if f == nil then
     local f = io.open(corename.."/src/corepch.cpp","w")
