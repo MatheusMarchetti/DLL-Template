@@ -1,8 +1,8 @@
 -- Default folder structure for creating a project
 
-solutionname = "solution"
-corename = "core"
-appname = "app"
+solutionname = "Untitled"
+corename = "Core"
+appname = "App"
 
 os.mkdir(corename)
 os.mkdir(appname)
